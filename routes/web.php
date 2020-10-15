@@ -26,6 +26,14 @@ Route::resource('categories','CategoryController');
 
 //category route ends here
 
+//subcategory route starts here
+
+Route::resource('subcategories','SubcategoryController');
+
+//subcategory route ends here
+
 //Brand Route Starts here
 
+Route::resource('brands','BrandController');
 
+//Brand Route Ends Here
